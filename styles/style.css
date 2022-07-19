@@ -1,0 +1,75 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+/* css reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* utility clases  */
+.container{
+    width: 85%;
+    margin: 0 auto;
+    /* height: 600px; */
+}
+
+/* Header style start form here  */
+header{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.header{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.header-descritption{
+    margin-left: 70px;
+    width: 530px;
+}
+.header-title{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    
+}
+.header-text{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+.live-btn{
+    padding: 12px 25px;
+    background-color: #DD0000;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffff;
+    transition: all .3s ease-in;
+}
+.live-btn i{
+    margin-left: 7px;
+}
+.live-btn:hover{
+    color: #DD0000;
+    background-color: #fff;
+}
+.header-img img{
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+.header-img:hover img{
+    transform: scale(1.1);
+
+}
+/* Header style end here  */
