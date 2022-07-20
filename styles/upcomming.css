@@ -159,50 +159,12 @@ h3.match-title {
 p.match-text {
     color: #4D4D4D;
 }
-
-.card-img img {
-    width: 100%;
-    margin-bottom: 15px;
+.match-vs span {
+    margin: 0px 8px;
 }
 
-.card-description {
-    padding: 10px;
-}
 
-.transfer-btn {
-    padding: 7px 12px;
-    border: 1px solid #161616;
-    border-radius: 5px;
-    font-size: 16px;
-    color: #161616;
-    text-decoration: none;
 
-}
-
-.card-title {
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 15px;
-    margin-bottom: 20px;
-}
-
-.time {
-    margin-left: 6px;
-    display: flex;
-    width: 50%;
-    justify-content: space-between;
-    color: #16161687;
-}
-
-.time span {
-    /* font-size: 24px; */
-    margin-left: 8px;
-
-}
-
-.time i {
-    /* font-size: 24px; */
-}
 
 /* Blogs section end  here  */
 
