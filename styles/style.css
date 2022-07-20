@@ -213,4 +213,27 @@ footer{
     display: flex;
     justify-content: center;
 }
+.social-media{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.social-media i{
+    margin-right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    transform: color .3s ;
+}
+.social-media a{
+    color: white;
+}
+.social-media i:first-child:hover{
+    color: #4267B2;
+}
+.social-media i:nth-child(2):hover{
+    color: #FF0000;
+}
+.social-media i:last-child:hover{
+    color:  rgb(64, 93, 230);
+}
 /* Footer part end here  */
