@@ -138,27 +138,7 @@ header {
     border-radius: 10px;
     box-shadow: 0px 2px 3px #80808073;
 }
-.match-wraper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 52px 30px;
-}
-.match-vs {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
 
-h3.match-title {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-p.match-text {
-    color: #4D4D4D;
-}
 
 .card-img img {
     width: 100%;
@@ -252,13 +232,13 @@ footer{
 .social-media a{
     color: white;
 }
-.social-media i:first-child:hover{
+.social-media a:first-child:hover{
     color: #4267B2;
 }
-.social-media i:nth-child(2):hover{
+.social-media a:nth-child(2):hover{
     color: #FF0000;
 }
-.social-media i:last-child:hover{
+.social-media a:last-child:hover{
     color:  rgb(64, 93, 230);
 }
 /* Footer part end here  */

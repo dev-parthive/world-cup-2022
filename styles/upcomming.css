@@ -214,13 +214,13 @@ footer{
 .social-media a{
     color: white;
 }
-.social-media i:first-child:hover{
+.social-media a:first-child:hover{
     color: #4267B2;
 }
-.social-media i:nth-child(2):hover{
+.social-media a:nth-child(2):hover{
     color: #FF0000;
 }
-.social-media i:last-child:hover{
+.social-media a:last-child:hover{
     color:  rgb(64, 93, 230);
 }
 /* Footer part end here  */
