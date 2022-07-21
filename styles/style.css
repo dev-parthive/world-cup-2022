@@ -85,6 +85,12 @@ main {
     padding: 10px 20px;
     background-color: #DD0000;
     border-radius: 10px;
+    transition: all .3s ease-in;
+}
+.live-btn:hover{
+    background-color: #fff;
+    color: #DD0000;
+
 }
 
 /* Header style end here  */
@@ -189,6 +195,22 @@ main {
 }
 
 /* Blogs section end  here  */
+
+.veiw-all{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.veiw-all a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 25px ;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    display: none;
+}
 
 /* Footer part start here  */
 footer {
@@ -374,6 +396,17 @@ footer {
     .blogs-card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* view all button  */
+    .veiw-all a{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px 25px ;
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+        display: block;
     }
     /* Upcomming match  */
     .match-wraper{
