@@ -262,7 +262,7 @@ footer {
 
 /* Responsive  */
  /* mobile responsive */
- @media only screen and (max-width:  480px) {
+ @media only screen and (max-width: 480px) {
     body{
         /* background: red; */
     }
@@ -287,6 +287,9 @@ footer {
     .header-title {
         font-size: 30px;
         line-height: 48px;
+    }
+    .header-text{
+        text-overflow: ellipsis;
     }
 
     /* blog section  */
