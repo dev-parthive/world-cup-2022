@@ -301,6 +301,7 @@ footer {
         height: auto;
         padding-bottom: 0;
         width: 100%;
+        flex-wrap: wrap;
     }
 
     .side-menu a {
